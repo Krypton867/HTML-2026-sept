@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+body{
+    font-size: 35px;
+}
+header{
+    height: 10vh;
+    background-color: grey;
+    font-size: 1em;
+}
+header p:nth-child(1){
+    display: block;
+}
+header p:nth-child(2){
+      display: none;
+}
+nav{
+    height: 5vh;
+    background-color: greenyellow;
+    display: block;
+}
+footer{
+    height: 15vh;
+    background-color: grey;
+}
+.flex{
+    display: flex;
+    height: 75vh;
+}
+section{
+    width: 33.3%;
+    height: 100%;
+    font-size: 0.7em;
+}
+.section-1{
+    background-color: hotpink;
+}
+.section-2{
+    background-color: yellow;
+}
+.section-3{
+    background-color: darkolivegreen;
+}
+
+header, footer, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
