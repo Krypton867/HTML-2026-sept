@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    width: 28.3vw;
+}
+header{
+    height: 10vh;
+    background: #D9D9D9;
+}
+footer{
+    height: 13.8vh;
+    background: #D9D9D9;
+}
+#up{
+    height: 25.4vh;
+    background: #78786F;
+}
+#center{
+    height: 25.4vh;
+    background: #9EA087;
+}
+#down{
+    height: 25.4vh;
+    background: #78786F;
+}

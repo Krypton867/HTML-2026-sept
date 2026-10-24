@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+#pink{
+    height: 45vh;
+    background-color: #FEC1CB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 10vw 0 10vw;
+    text-align: center;
+}
+#black{
+    height: 45vh;
+    background-color: #272727;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 10vw 0 10vw;
+    text-align: center;
+}

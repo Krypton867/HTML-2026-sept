@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 15vh;
+    background: #D9D9D9;
+}
+.main-div{
+    height: 85vh;
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 50vw;
+    background: #A5A5A3;
+}
+#right_up{
+    height: 50%;
+    width: 50vw;
+    background: #78786F;
+}
+#right_down{
+    height: 50%;
+    width: 50vw;
+    background: #4F504A;
+}
