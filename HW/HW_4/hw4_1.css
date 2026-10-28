@@ -34,8 +34,9 @@ button{
 }
 
 .section-1-left{
-    background-image: url("image/image2.png");
+    background-image: url("image/image2.jpg");
     background-size: cover;
+    background-position: center;
     width: 35vw;
     height: 40vh;
 }
