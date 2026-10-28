@@ -1,0 +1,78 @@
+.main-div{
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-color: #DCDCDC;
+    padding: 26px;
+}
+
+#reg{
+    border-width: 2px;
+    border-style: solid;
+    margin: 5px;
+    border-color: #DCDCDC;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    width: 270px;
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 3px;
+    border-color: #DFDFDF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+}
+
+button{
+    padding: 8px 118px;
+    border-radius: 8px;
+    background-color: #79B4F4;
+    color: white;
+    margin: 9px;
+    border-width: 0;
+}
+
+.instagram{
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.facebook{
+    height: 13px;
+}
+
+.or{
+    color: #A1A1A1;
+}
+
+a{
+    text-decoration: none;
+    color: #3C5181;
+}
+
+label{
+    margin: 13px;
+}
+
+.forgot{
+    color: #123767;
+}
+
+.register{
+    color: #3E95EF;
+}

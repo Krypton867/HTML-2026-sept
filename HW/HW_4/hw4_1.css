@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+}
+
+button{
+    background-color: #D9D9D999;
+    width: 350px;
+    height: 60px;
+    border-width: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    color: #716D6D;
+    margin-bottom: 50px;
+}
+
+.section-1{
+    background-image: url("image/image1.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1-main{
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1-left{
+    background-image: url("image/image2.png");
+    background-size: cover;
+    width: 35vw;
+    height: 40vh;
+}
+
+.section-1-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 35vw;
+    height: 40vh;
+}
+
+.button-1{
+    width: 350px;
+    height: 60px;
+    border-width: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 11px;
+    font-size: 20px;
+}
+
+.section-2{
+    background-image: url("image/image3.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-2-main{
+    width: 63vw;
+    height: 52vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-2-text {
+    width: 63vw;
+    text-align: left;
+}
+
+.section-2-text h1{
+    margin: 45px 0 0 0;
+}
+
+.section-2-text p {
+    margin: 0;
+    overflow-wrap: break-word;
+    font-size: 25px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.section-3{
+    background-image: url("image/image3.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.section-3-left,
+.section-3-center,
+.section-3-right {
+    flex: 1;
+    text-align: center;
+    background-color: #53535366;
+    padding: 20px;
+}
+
+.section-3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.value{
+    margin-top: 45px;
+}
+
+.text{
+    font-size: 25px;
+}
